@@ -1,0 +1,185 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #27253d;
+  background: #e6f3f8;
+}
+.navtop{
+  width: 99vw;
+  height: 4.5vmin;
+  background-color: #f6c57f;
+}
+.navtop h5{
+  font-size: 1.9vmin;
+  margin-top: 0.7vmin;
+  color: white;
+}
+.navtop .icons{
+  color: #f6c57f;
+  border-radius: 50px;
+  padding: 0.6vmin;
+  background-color: white;
+}
+
+main {
+  position: relative;
+  padding: 1rem 1rem 3rem;
+  
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+  
+}
+.bottomnav p, select, textarea{
+  height: 2rem;
+  font-size: 2vmin;
+}
+
+@media (max-width: 1000px) {
+  .bottomnav p, select, textarea{
+    height: 2rem !important;
+   }
+   
+
+}
+.fa-star{
+  color: gold;
+}
+.stars{
+  margin: 0;
+  height: vmin;
+}
+.brands p{
+ margin-top: 0;
+}
+.sidenavbar{
+  padding-left: 2vmin;
+  width: 25vmin;
+  
+}
+.bottomnav{
+  padding-top: 1.5vmin;
+  height: 2.5vmin;
+}
+.bottomnav p, select{
+  height: 2.6vmin;
+  font-weight: 700;
+}
+.pagination-container {
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  justify-content: center;
+}
+.none h5{
+  font-size: 3vmin ;
+  cursor: pointer;
+}
+.none h5:hover{
+ color: grey;
+}
+
+.pagination-number,
+.pagination-button{
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: none;
+  margin: 0.25rem 0.25rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: .2rem;
+}
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+  background: #fff;
+}
+
+.pagination-number.active {
+  color: #fff;
+  background: #0085b6;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+ 
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .heart {
+  color: #DC143C;
+}
+
+li {
+    display: inline-block;
+    padding: 1%;
+
+}
+
+.okokok{
+    display: block;
+    padding: 0%;
+}
+
+.sebs:hover {
+    color: black !important;
+    font-weight: 700 !important;
+    background-color: tomato !important;
+    border-color: tomato !important;
+}
+.sebs {
+    overflow: hidden;
+     background-color: red !important;
+     width: 50px !important;
+     color: white !important;
+     margin-top: -28% !important;
+     height: 35px;
+     margin-left: -49px !important;
+     border-radius: 0% 45% 42% 0% !important;
+     padding: 1% !important;
+     border-color: red !important;
+   
+
+ }
+
+ .klklkl {
+    margin-top: 1% !important;
+ }
+
+#input {
+    width: 500px !important; ;
+     margin-left: -600px !important; 
+     border-color: rgb(243, 124, 12) !important;
+     border-radius: 25px !important;
+     color: gray !important;
+     height: 35px;
+     
+    
+}
+
+.navbar {
+  
+    background-color: white !important;
+    box-shadow: 0px 15px 10px -15px #111;
+
+}
